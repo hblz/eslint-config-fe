@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-fe",
+  "version": "0.1",
+  "description": "eslint config for FE projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hblz/eslint-config-fe.git"
+  },
+  "keywords": [
+    "eslint",
+    "FE"
+  ],
+  "author": "WHB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hblz/eslint-config-fe/issues"
+  },
+  "homepage": "https://github.com/hblz/eslint-config-fe/blob/master/README.md",
+  "dependencies": {
+    "babel-eslint": "^7.2.1",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-html": "^2.0.1"
+  }
+}
