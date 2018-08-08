@@ -6,7 +6,7 @@ module.exports = {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true
     },
-    "sourceType": "module"
+    "sourceType": "pages"
   },
 
   "plugins": [
@@ -30,6 +30,7 @@ module.exports = {
   },
 
   "rules": {
+    //在定义对象的时候，getter/setter需要同时出现
     "accessor-pairs": 2,
     "array-bracket-spacing": [2, "never"],
     "arrow-parens": [2, "as-needed"],
