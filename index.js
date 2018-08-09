@@ -6,7 +6,7 @@ module.exports = {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true
     },
-    "sourceType": "pages"
+    "sourceType": "module"
   },
 
   "plugins": [
@@ -55,7 +55,7 @@ module.exports = {
     "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
     "new-parens": 2,
     "no-array-constructor": 2,
-    "no-await-in-loop": 2,
+    "no-await-in-loop": 0,
     "no-caller": 2,
     "no-class-assign": 2,
     "no-cond-assign": 2,
@@ -137,7 +137,7 @@ module.exports = {
     "padded-blocks": [2, "never"],
     "prefer-const": 2,
     "quotes": [2, "single", "avoid-escape"],
-    "semi": [2, "never"],
+    "semi": [2, "always"],
     "semi-spacing": [2, { "before": false, "after": true }],
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "always"],
@@ -151,9 +151,6 @@ module.exports = {
     "wrap-iife": [2, "any"],
     "yield-star-spacing": [2, "both"],
     "yoda": [2, "never"],
-
-    "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0,
-
     "babel/new-cap": 2,
     "babel/object-curly-spacing": [2, "always", { "objectsInObjects": true, "arraysInObjects": true }]
   }

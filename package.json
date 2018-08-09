@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-fe",
-  "version": "0.0.1",
+  "name": "eslint-config-fefe",
+  "version": "0.0.5",
   "description": "eslint config for FE projects",
   "main": "index.js",
   "repository": {
